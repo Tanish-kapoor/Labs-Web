@@ -1,0 +1,73 @@
+body {
+    background-color: #fff;
+    background-image: url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+    color: #404040;
+
+    font-size: 12pt;
+    font-family: Georgia,Garamond,serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+h1,h2 {
+    letter-spacing: 0.25em;
+    background-color: #F0F0F0;
+
+    color: #A4A400;
+
+    font-family: "Century Gothic",
+        Futura,
+        Verdana,
+        sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size:24pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
+    font-weight: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+.recipe_intro{
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                margin-top: 1em;
+    
+                li {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+}
+.ingredients{
+    ul{
+        list-style-image: url(https://www.rose-hulman.edu/class/csse/csse290-WebProgramming/images/pie_bullet.png);
+    }
+}
+.usercomments {
+    blockquote {
+        font-style: italic;
+        background-color: #FFFFC8;
+
+        .author {
+            margin-top: 1em;
+
+            &:before {
+                content: "- ";
+            }
+        }
+    }
+}

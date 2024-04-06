@@ -1,0 +1,49 @@
+body {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: larger;
+    animation: changeBackground 5s infinite;
+}
+
+.gold {
+    color: yellow;
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url('https://www.pexels.com/photo/white-icing-pie-with-red-berries-1674552/');
+        color: aliceblue
+    }
+
+    25% {
+        background-image: url('bg1.jpg');
+        color: rgb(255, 183, 88);
+    }
+
+    50% {
+        background-image: url('bg2.jpg');
+        color: rgb(126, 126, 126);
+    }
+
+    75% {
+        background-image: url('bg3.jpg');
+        color: rgb(162, 62, 255);
+    }
+
+    100% {
+        background-image: url('bg4.jpg');
+        color: rgb(255, 54, 218);
+    }
+}
+
+
+.red {
+    color: red;
+    font-size: 24px;
+    font-style: italic;
+    font-style: oblique;
+}
+
+p {
+    font-family: Cursive;
+}
