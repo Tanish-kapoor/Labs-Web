@@ -1,18 +1,84 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #center {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        button.btn1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button.btn1:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-        <h4>What is pie?</h4>
-        <p>A pie is a baked dish which is usually made of a pastry dough casing that contains a filling of various sweet or savoury ingredients. Sweet pies may be filled with fruit (as in an apple pie), nuts (pecan pie), fruit preserves (jam tart), brown sugar (sugar pie), sweetened vegetables (rhubarb pie), or with thicker fillings based on eggs and dairy (as in custard pie and cream pie). Savoury pies may be filled with meat (as in a steak pie or a Jamaican patty), eggs and cheese (such as quiches or British flans) or a mixture of meat and vegetables (pot pie).</p><br>
-
+    <header>
+        <h1>Welcome to the Wonderful World of Pies!</h1>
+    </header>
+    <section>
+        <h2>What is pie?</h2>
+        <p>A pie is a baked dish which is usually made of a pastry dough casing that contains a filling of various sweet or savoury ingredients. Sweet pies may be filled with fruit (as in an apple pie), nuts (pecan pie), fruit preserves (jam tart), brown sugar (sugar pie), sweetened vegetables (rhubarb pie), or with thicker fillings based on eggs and dairy (as in custard pie and cream pie). Savoury pies may be filled with meat (as in a steak pie or a Jamaican patty), eggs and cheese (such as quiches or British flans) or a mixture of meat and vegetables (pot pie).</p>
+    </section>
     <main>
         <div id="center">
-            <h3>Click below to Checkout <div id="h">Grandma's Lemon Meringue Pie</div></h3>
-            <button class="btn1"><a href="pie.html">hello</a></button>
+            <h3>Click below to Checkout <span id="h">Grandma's Lemon Meringue Pie</span></h3>
+            <button class="btn1"><a href="pie.html" style="text-decoration:none; color: inherit;">Click Me</a></button>
         </div>
     </main>
+    <footer>
+        <p>&copy; 2024 Wonderful Pies Inc. All rights reserved.</p>
+    </footer>
 </body>
 </html>
